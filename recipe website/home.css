@@ -1,0 +1,115 @@
+*
+
+{
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/233/422/571/grain-garlic-spices-seasonings-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+   
+}
+
+#logo{
+  color: aliceblue;
+  font-size: 50px;
+  font-family:'Nova Square', sans-serif; ;
+  margin: 10px;
+  
+}
+
+NAV{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+ 
+
+
+}
+
+a{
+  color:white;
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 5px 5px 10px black;
+  text-decoration: none;
+  font-family:'Caveat', cursive;
+}
+
+a:hover{
+  color:rgb(255, 255, 0) ;
+}
+
+span{
+  margin-left: 115px;
+}
+
+
+#wel{
+  font-size: 40px;
+  color: #fff;
+  position: relative;
+  left: 3px;
+  text-shadow: 2px 2px 5px  black;
+  margin-top: 120px;
+  font-family:  'Permanent Marker', cursive;
+
+   
+}
+
+.para1{
+  font-size: 30px;
+  color: #fff;
+  padding: 20px;
+ /* margin-top: 50px;*/
+ position: relative;
+ top: 60px;
+  background-color: rgba(18, 17, 17, .5);
+  width: 100%;
+}
+
+li{
+  color:blue;
+  font-size: 25px;
+  padding-top: 15px;
+  
+ }
+
+ #con{
+  background-color: black;
+  margin-top: 60px;
+ }
+ ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-end;
+  padding-bottom: 50px;
+  padding-right: 25px;
+
+ }
+ .p1{
+  font-size: 30px;
+  color: azure;
+ }
+
+ 
+@media (max-width:620px) {
+  a{
+    font-size: 20px;
+  }
+  span{
+    margin-left: 20px;
+  }
+  #wel{
+    font-size: 30px;
+  }
+  
+}
+
+ 
